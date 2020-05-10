@@ -45,5 +45,7 @@ def find_a(words)
   end
 end  
 
-def
+def  sum_array(array)
+  array.inject{|num1, num2| num1 + num2}
+end
   
