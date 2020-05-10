@@ -37,5 +37,8 @@ end
 
 def kesha_maker (array)
   array.each do |word|
-    word
+    word[3] = $
+    puts "#{word}"
+  end
+end
   
