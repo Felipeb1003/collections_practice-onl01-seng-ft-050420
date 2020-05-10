@@ -2,8 +2,8 @@ def sort_array_asc(array)
   array.sort
 end
 
-def sort_array_desc(array)
-  array.sort do |num1, num2|
+def sort_array_desc(arraya)
+  arraya.sort do |num1, num2|
     if num1 == num2
       0
     elsif num1<num2
@@ -14,8 +14,8 @@ def sort_array_desc(array)
   end
 end  
 
-def sort_array_char_count(array)
-  array.sort do |string1, string2|
+def sort_array_char_count(arrayb)
+  arrayb.sort do |string1, string2|
     if string1 == string2
       0
     elsif string1.size<string2.size
@@ -26,17 +26,17 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array)
- array[1], array[2] = array[2], array[1]
- array
+def swap_elements(arrayc)
+ arrayc[1], arrayc[2] = arrayc[2], arrayc[1]
+ arrayc
 end
 
-def reverse_array(array)
-  array.reverse
+def reverse_array(arrayd)
+  arrayd.reverse
 end
 
-def kesha_maker (array)
-   array.each{|letter| letter[2] = "$"}
+def kesha_maker (arraye)
+   arraye.each{|letter| letter[2] = "$"}
 end
 
 def find_a(words)
@@ -45,7 +45,10 @@ def find_a(words)
   end
 end  
 
-def  sum_array(array)
-  array.inject{|num1, num2| num1 + num2}
+def  sum_array(arrayf)
+  arrayf.inject{|num1, num2| num1 + num2}
 end
+
+def add_s(arrayg)
+  
   
