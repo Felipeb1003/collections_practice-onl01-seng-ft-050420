@@ -36,9 +36,8 @@ def reverse_array(array)
 end
 
 def kesha_maker (array)
-   new_array = []
-   array.each{|word|<< "word".slice(2) = "$"}
-  new_array
+   array.each{|letter| letter[2] = "$"}
+ 
   end
 end
   
