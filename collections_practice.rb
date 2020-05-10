@@ -50,7 +50,7 @@ def  sum_array(array)
 end
 
 def add_s(array)
-   array_g.each do |item|
+   array.each do |item|
      if array[1] == item
        item
      else
