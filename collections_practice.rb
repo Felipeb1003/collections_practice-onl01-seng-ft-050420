@@ -37,7 +37,7 @@ end
 
 def kesha_maker (array)
   array.each do |word|
-    word[3] = $
+    word.slice(2) = $
     puts "#{word}"
   end
 end
