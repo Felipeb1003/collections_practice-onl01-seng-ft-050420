@@ -43,4 +43,6 @@ def find_a(words)
   array.select do |word|
     word.start_with?("a")
     puts #{word}
+  end
+end  
   
