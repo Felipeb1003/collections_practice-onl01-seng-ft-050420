@@ -40,7 +40,7 @@ def kesha_maker (array)
 end
 
 def find_a(words)
-  array.select do |word|
+   words.select do |word|
     word.start_with?("a")
     puts #{word}
   end
