@@ -50,6 +50,7 @@ def  sum_array(array_f)
 end
 
 def add_s(array_g)
-  if array_g.each{|word|<< "#{word}s"}
+   array_g.each do |word|
+     if array_g
 end
   
